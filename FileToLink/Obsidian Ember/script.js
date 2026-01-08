@@ -266,7 +266,7 @@
     // ═══════════════════════════════════════════
     const initWatermark = () => {
         const watermark = document.createElement('div');
-        watermark.textContent = 'MixologyXBot ▶️';
+        watermark.textContent = 'MixologyXBot Streaming';
         Object.assign(watermark.style, {
             position: 'fixed',
             bottom: '12px',
@@ -294,5 +294,6 @@
     initCopyright();
     initWatermark();
 })();
+
 
 
